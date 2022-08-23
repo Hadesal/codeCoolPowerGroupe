@@ -10,3 +10,4 @@ console.log("Hello " + firstname + " " + lastname);
 console.log("I know some things about you!");
 console.log("You are " + height + " cm tall.");
 console.log("Your weight is " + weight + " kg.");
+console.log("If you are female I would print out here true, else false: " + isFemale);
