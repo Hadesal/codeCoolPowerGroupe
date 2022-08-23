@@ -13,4 +13,9 @@
 
 ## Project Structure
 
-See [Git Basics](chapter1/gitBasics/)
+`README.md` contains all the requirements. There can be other files as well.
+
+See [Git Basics](chapter1/gitBasics/). 
+
+## Hints
+* Use markdown for structure
