@@ -28,3 +28,4 @@ Learn objectives:
 * Workshop: formatting code
 * Workshop: basic work & git conflicts (intro multiuser work)
 * Hangman
+* [Workbook](https://journey.code.cool/v2/learn/courses/252/modules/7552/units/7/SOLO/30052)
