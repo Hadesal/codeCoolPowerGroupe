@@ -1,6 +1,6 @@
 # git clone 
 
-* Q: Who knows dolly the sheep?
+* Do you knows [Dolly](https://en.wikipedia.org/wiki/Dolly_(sheep)) the sheep?
 * [setup a SSH key for github](https://tecadmin.net/adding-a-new-ssh-key-in-github/)
 * checkout the curriculum:
     ```sh

@@ -52,7 +52,8 @@
         }
 
         for (let i = 1; i < 10; i++) {
-            console.log(`Circle area for ${i}: ${circleArea(i)}`);
+            let area = circleArea(i):
+            console.log(`Circle area for ${i}: ${area}`);
         }
         m@t480s:~/sandbox$ node circleAreas.js 
         Circle area for 1: 3.141592653589793
@@ -60,6 +61,8 @@
         Circle area for 9: 254.46900494077323
         ```
     * JavaScript is the language of the Web 
+        * CTRL + SHIFT + i
+            * `"Hello World"` in the console
         * Google Suite (mail, calendar, office)
     * JavaScript is also a fully fledged development platform
         * Slack (desktop, mobile, web)
@@ -69,7 +72,7 @@
 
 ## Exercises
 * Setup VS code
-    * install and setup
+    * install and setup plugins
         * prettier
         * eslint
     * learn shortcuts (google for: "visual studio code shortucts linux/macos")
