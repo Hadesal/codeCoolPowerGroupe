@@ -20,7 +20,7 @@
     $ node hello.js
     Hello World!
     ```
-* Where will the journey go: show what's all possible in JS:
+* Where will the journey go?
     * 1st chapter - mechanic computer
         ```
         m@t480s:~$ node                     # interactive mode
@@ -62,10 +62,10 @@
     * JavaScript is the language of the Web 
         * Google Suite (mail, calendar, office)
     * JavaScript is also a fully fledged development platform
-        * Slack
-        * Discord
-        * Visual Studio Code
-        * Wlingua
+        * Slack (desktop, mobile, web)
+        * Discord (desktop, mobile, web)
+        * Visual Studio Code (desktop, web)
+        * Wlingua (web, mobile)
 
 ## Exercises
 * Setup VS code

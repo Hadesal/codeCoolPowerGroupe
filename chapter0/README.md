@@ -2,4 +2,4 @@
 ## Team
 * Workshop: [Introduction to UNIX](./workshopUnix.md)
 * Workshop: [Introduction to JS](./workshopIntroToJavaScript.md) 
-* Workshop: [Introduction to GIT](./workshopGit.md)
+* Solo Project: [Introduction to GIT](./introductionGit.md)
