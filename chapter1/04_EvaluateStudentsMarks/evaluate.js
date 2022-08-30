@@ -1,3 +1,6 @@
+// This function returns you a random number
+// between the min value (inclusive) and the
+// max value (inclusive)
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
 }

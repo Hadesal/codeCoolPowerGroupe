@@ -29,6 +29,8 @@ Create an array of cars. The cars are objects and they have the properties: bran
 
 Create a loop which filters all cars which cost less than 60000 (means print all properties).
 Create a loop which filters all cars which have more than 150 hp.
+Create a loop which will print all cars that are made after 2020 and have less than 100 hp.
+Create a loop which will print all cars that are by Fiat or have less than 150 hp.
 
 ## Hints
 * A number is odd if the number % 2 equals 1 (1%2=1, 3%2=1,5%2=1, ... but 2%2=0, 4%2=0...).
