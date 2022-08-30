@@ -19,4 +19,4 @@ Change the content of the variables so they describe you and run your code again
 Declare further variables which describe you best
 
 ## Hints
-<mark>console.log()</mark> is a function. We will learn later what functions are. Important for you for now is to know, that this function prints anything you "tell" it (what you pass in the round brackets) to the screen.
+`console.log()` is a function. We will learn later what functions are. Important for you for now is to know, that this function prints anything you "tell" it (what you pass in the round brackets) to the screen.

@@ -1,6 +1,6 @@
 # Introduction To JavaScript -  Operators & if-statements
 
-if-statements, also called condition is an essential tool in programming languages. <mark>If</mark> you will master this excercise you are big step closer to becoming a developer <mark>else</mark> you have to repeat this exercise
+if-statements, also called condition is an essential tool in programming languages. `If` you will master this excercise you are big step closer to becoming a developer `else` you have to repeat this exercise
 
 
 ## What are you going to learn?
@@ -12,7 +12,7 @@ if-statements, also called condition is an essential tool in programming languag
 ## Tasks
 
 ### Operators & if
-Finish the <mark>Operators & if-statements</mark> section of the "Introduction to JavaScript" course on the platform Educative.io.
+Finish the `Operators & if-statements` section of the "Introduction to JavaScript" course on the platform Educative.io.
 
 ## Background Material
 Platform: [Educative.io](https://www.educative.io/)

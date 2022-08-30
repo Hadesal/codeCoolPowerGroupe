@@ -12,7 +12,7 @@ Arrays and Objects are so called collections. Collections make it possible to st
 ## Tasks
 
 ### Arrays and Objects
-Finish the <mark>Arrays</mark> and the <mark>Objects</mark> sections of the "Introduction to JavaScript" course on the platform Educative.io.
+Finish the `Arrays` and the `Objects` sections of the "Introduction to JavaScript" course on the platform Educative.io.
 
 ## Background Material
 Platform: [Educative.io](https://www.educative.io/)
