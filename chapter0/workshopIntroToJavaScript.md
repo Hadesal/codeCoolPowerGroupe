@@ -75,6 +75,7 @@
     * install and setup plugins
         * prettier
         * eslint
+        * Live Server
     * learn shortcuts (google for: "visual studio code shortucts linux/macos")
         * try each at least once
         * have the cheatsheet always handy
