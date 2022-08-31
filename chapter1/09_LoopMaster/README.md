@@ -22,7 +22,7 @@ Write a loop to display the first 10 odd numbers
 Write a loop to multiply the numbers 1-10 and display the result.
 
 ### 3x+1
-Write a loop that displays you all numbers in the 3x+1 series of the number 1111 (so first 1111 is printed, then 3332 is printed, then 1666, ...)
+Write a loop that displays you all numbers in the 3x+1 series of the number 1111 (so first 1111 is printed, then 3332 is printed, then 1666, ...). Look at the background materials for more information.
 
 ### Broooooooam
 Create an array of cars. The cars are objects and they have the properties: brand, price, horsepower, color and year_of_construction. Create following cars there: BMW(70000, 200hp, white, 2020), Mazda(45000, 220hp, silver, 2021), Volvo(55000, 190hp, beige, 2021), Opel(38000, 155hp, black, 2021), Mazda(22000, 90hp, magenta, 2021), Fiat(19000, 110hp, blue, 2019)
