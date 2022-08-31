@@ -38,6 +38,6 @@ console.log(`Hello ${firstname} ${lastname}`);
   * const - variables that can't change the value. Good as a protective measure
 
 ### Background Materials
-[Clean Coding](https://journey.code.cool/v2/learn/materials/competencies/clean-code.md)
-[String Literals/Interpolation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-[Variables in JavaScript](https://journey.code.cool/v2/learn/materials/competencies/javascript-basics/javascript-variables.md)
+* [Clean Coding](https://journey.code.cool/v2/learn/materials/competencies/clean-code.md)
+* [String Literals/Interpolation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [Variables in JavaScript](https://journey.code.cool/v2/learn/materials/competencies/javascript-basics/javascript-variables.md)

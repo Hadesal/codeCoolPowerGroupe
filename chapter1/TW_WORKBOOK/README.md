@@ -27,7 +27,7 @@ You need to fill in the answers in your workbook during your journey in the modu
 
 ## Hints
 * Discuss your answers with each other! It is even better if you simulate an interview situation by shooting random questions at each other as it helps recalling the answers.
-* The empty document uses Markdown headings. Questions are marked with heading level 4 (####). Write your answers as simple paragraphs after the questions. Don't forget adding empty lines before and after the paragraphs.
+* The empty document uses Markdown headings. Questions are marked with heading level 4 (`####`). Write your answers as simple paragraphs after the questions. Don't forget adding empty lines before and after the paragraphs.
 
 ### Background Material
-[Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
+* [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
