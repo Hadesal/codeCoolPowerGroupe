@@ -14,9 +14,13 @@ Fill all collections with values and see which fruits are created.
 ### Log it
 Log the length of all collections and each element of each collection.
 
+### Nested Loops
+Log the combination of all fruits and colors.
+
 
 ## Hints
-We created a random function to generate random indices to access values of collections randomly to make you some appetite for more :)
+* We created a random function to generate random indices to access values of collections randomly to make you some appetite for more :)
+* For the combination of all fruits and colors you need nested loops (this means a loop in a loop)
 
 ## Background Material
 

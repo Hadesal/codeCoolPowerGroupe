@@ -58,6 +58,10 @@ console.log(`
 
 `);
 </span>
+* Remember following sections from clean coding:
+  * use camelCase
+  * for non-changeable things use const
+  * use NAMED_CONSTANTS instead of magic variables
 * Start this project from scratch!
 
 ## Background Material

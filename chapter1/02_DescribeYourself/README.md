@@ -31,6 +31,11 @@ You see that everywhere where `console.log` is used the variables are connected 
 ```
 console.log(`Hello ${firstname} ${lastname}`);
 ```
+* There are 4 ways how to declare a variable:
+  * without a modifier (no let, var or const) - bad coding style
+  * let - local variable (we almost always use this)
+  * var - global variable (unless we know what we do we never want to use this)
+  * const - variables that can't change the value. Good as a protective measure
 
 ### Background Materials
 [Clean Coding](https://journey.code.cool/v2/learn/materials/competencies/clean-code.md)
