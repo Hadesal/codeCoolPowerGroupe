@@ -4,7 +4,7 @@ const prompt = require("prompt-sync")();
 
 // Here you see an example how to get your
 // constants from constants.js
-// for(let figure of constants.HANGMANPICS)
+// for(let figure of constants.HANGMAN_PICS)
 // {
 //     console.log(figure);
 // }

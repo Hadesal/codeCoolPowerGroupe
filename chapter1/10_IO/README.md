@@ -21,4 +21,4 @@ If you are sure which figure the user thinks about then you can ask the user if 
 * If you had fun with this task you might add more figures and try to extend your script :)
 
 ## Background Material
-[How to read from the console](prompt-sync.md)
+* [How to read from the console](prompt-sync.md)

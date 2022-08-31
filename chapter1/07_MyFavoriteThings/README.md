@@ -51,20 +51,22 @@ Console log the directors of your favourite series if the length of the `directo
 * Be really careful with the syntax! Your code won't work if you miss a bracket a quote-mark or a comma.
 * Use template literals for the console log's. eg:
 
-<span style="color:grey">
-console.log(`
+  ```html
+  <span style="color:grey">
+  console.log(`
 
-  My favourite book's author is: ${myFavs.book.author}
+    My favourite book's author is: ${myFavs.book.author}
 
-`);
-</span>
+  `);
+  </span>
+  ```
 * Remember following sections from clean coding:
-  * use camelCase
-  * for non-changeable things use const
-  * use NAMED_CONSTANTS instead of magic variables
+  * use `camelCase` for names composed of several words
+  * for non-changeable things use `const`
+  * use `NAMED_CONSTANTS` instead of magic variables
 * Start this project from scratch!
 
 ## Background Material
-[Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-[Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
-[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+* [Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)

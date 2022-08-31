@@ -24,4 +24,4 @@ Log the combination of all fruits and colors.
 
 ## Background Material
 
-[Working with arrays](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)
+* [Working with arrays](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)

@@ -10,8 +10,8 @@ Good Luck!
 
 ## What are you going to learn?
 
-* Javascript
-* Git
+* Javascript basics
+* Git basics
 
 ### Background Material
 [JavaScript basics](https://journey.code.cool/v2/learn/materials/competencies/javascript-basics.md)
