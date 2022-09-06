@@ -18,3 +18,6 @@ Learn objectives:
 * Workshop: algorithmic thinking
 * Workshop: clean code
 * Tic-Tac-Toe
+
+# TODO
+* hint: https://www.teaching-materials.org/javascript/ (useful exercises)
