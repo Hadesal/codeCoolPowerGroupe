@@ -5,7 +5,7 @@
 * checkout the curriculum:
     ```sh
     ➜  ~ mkdir Desktop/codecool
-    ➜  ~ git clone  git+ssh://github.com/emulatoriu/VieProgBasicsCurriculum Desktop/codecool/curriculum
+    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum.git
     Cloning into 'Desktop/codecool/curriculum'...
     remote: Enumerating objects: 77, done.
     remote: Counting objects: 100% (77/77), done.
