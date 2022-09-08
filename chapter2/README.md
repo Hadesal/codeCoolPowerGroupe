@@ -14,6 +14,7 @@ Learn objectives:
 * [Sorting flowchart](https://journey.code.cool/v2/learn/courses/952/modules/7552/units/16/SOLO/35852)
 * [Seti](https://journey.code.cool/v2/learn/courses/952/modules/7552/units/16/SOLO/15263)
 * [The Keymaker](https://journey.code.cool/v2/learn/courses/952/modules/7552/units/16/SOLO/15244)
+* [Teaching Materials Exercises](./teachingMaterialsOrg/)
 ## Team
 * Workshop: algorithmic thinking
 * Workshop: clean code
