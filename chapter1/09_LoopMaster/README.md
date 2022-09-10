@@ -22,11 +22,9 @@ Write a loop to display the first `10` odd numbers
 Write a loop to multiply the numbers `1-10` and display the result.
 
 ### 3x+1
-<<<<<<< HEAD
 Write a loop that displays you all numbers in the 3x+1 series of the number 1111 (so first 1111 is printed, then 3332 is printed, then 1666, ...). Look at the background materials for more information.
 =======
 Write a loop that displays you all numbers in the `3x+1` series of the number `1111` (so first `1111` is printed, then `3332` is printed, then `1666`, ...). Have a look at the background material for more information.
->>>>>>> 115e49aefc505d0df1f9dc121b35ce48f7534df2
 
 ### Broooooooam
 * Create an array of cars. The cars are objects and they have the properties: brand, price, horsepower, color and year_of_construction. Create following cars there: 
