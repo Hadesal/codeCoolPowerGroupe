@@ -1,4 +1,4 @@
-NOTE filename: $reviewedStudent-$chapterNo
+NOTE filename: $reviewedStudent-$chapterNo.md
 
 --
 reviewer: $myName
