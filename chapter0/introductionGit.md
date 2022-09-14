@@ -2,11 +2,14 @@
 
 * Do you know [Dolly](https://en.wikipedia.org/wiki/Dolly_(sheep)) the sheep?
 * [setup a SSH key for github](https://tecadmin.net/adding-a-new-ssh-key-in-github/)
+* Ask a mentor to setup a curriculum repository for you (`./forkCurriculum.sh`). 
+* Go to: https://github.com/CodecoolGlobal/VieProgBasicsCurriculum-$myUserName
 * checkout the curriculum:
     ```sh
-    ➜  ~ mkdir Desktop/codecool
-    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum.git
-    Cloning into 'Desktop/codecool/curriculum'...
+    ➜  ~ mkdir ~/repos
+    ➜  ~ cd ~/repos
+    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum-uzak.git progBasicsCurriculum
+    Cloning into 'Desktop/codecool/progBasicsCurriculum'...
     remote: Enumerating objects: 77, done.
     remote: Counting objects: 100% (77/77), done.
     remote: Compressing objects: 100% (45/45), done.
