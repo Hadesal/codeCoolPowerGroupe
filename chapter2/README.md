@@ -7,30 +7,22 @@ Learn objectives:
 Learning objectives
 * Functions in JS
     * Creating functions
-	* [Introduction to JS Functions](./IntroductionToJSFunctions/)
+	* [Introduction to JS Functions](./IntroductionToJSFunctions/)    
+    	* [Teaching Materials](./teachingMaterialsOrg/)
+    	* [Project Rewrite] (./ProjectRewrite/)
+	* [Simple Calculator](./SimpleCalculator/)    	
 	* [So friendly](./SoFriendly/)
-	* [Simple Calculator](./SimpleCalculator/)
 	* [Complex Calculator](./ComplexCalculator/)
-
+	
     * String functions
+	* [Stringinator](./Stringinator/)
 
-    * Math functions
+    * Array functions
+	* [Arrays Arrays Arrays](./ArrayFunctions/)    
     
-    * Object functions
-    
-* Breaking loops
-    * Break and Continue
-    
-    
-    * [Create Your Character](./createYourOwnCharacter/) 
-    * [TODO List](./quickTodoList/)
-
-=======
-* [Teaching Materials Exercises](./teachingMaterialsOrg/)
-
 ## Team
 * Workshop: algorithmic thinking
 * Workshop: clean code
 * Workshop: [Developer Tools](./workshopDevTools.md)
-* **Team Project: [Tic Tac Toe](./tictactoe)**
+* **Team Project: [Tic Tac Toe](./TW_TicTacToe)**
 

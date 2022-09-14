@@ -24,4 +24,4 @@ will be in pension - great!"
 Think about a question you would ask in a small talk conversation and let your program ask this question. For this purpose declare a function with a nice name. Return the answer of the user and react to it in a proper way.
 
 ### Background Materials
-* [Functions](https://javascript.info/function-basics)
+<a href="https://javascript.info/function-basics" target="_blank">Functions</a>

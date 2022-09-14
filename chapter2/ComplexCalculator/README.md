@@ -46,6 +46,6 @@ Now when you have got the function, which should be used and the two input varia
 * to convert a string to a number you might check the function `parseInt(str)` (there are more solutions - check the background material for your favorite choice)
 
 ## Background Materials
-* [Functions](https://javascript.info/function-basics)
-* [Check if input is number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
-* [Convert string to number](https://dev.to/sanchithasr/7-ways-to-convert-a-string-to-number-in-javascript-4l)
+<a href="https://javascript.info/function-basics" target="_blank">Functions</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN" target="_blank">Check if input is number</a>
+<a href="https://dev.to/sanchithasr/7-ways-to-convert-a-string-to-number-in-javascript-4l" target="_blank">Convert string to number</a>
