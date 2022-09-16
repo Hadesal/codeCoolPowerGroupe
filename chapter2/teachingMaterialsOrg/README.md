@@ -1,6 +1,6 @@
 # Teaching Materials
 
-Practice makes perfect and guys from [teaching-materials.org](https://www.teaching-materials.org/) know it too. They provided it with some super nice [exercises](https://www.teaching-materials.org/javascript/exercises/functions) to practice functions. So let's practice!
+Practice makes perfect and guys from [teaching-materials.org](https://www.teaching-materials.org/) know it too. They provided us with some super nice [exercises](https://www.teaching-materials.org/javascript/exercises/functions) to practice functions. So let's practice!
 
 ## What are you going to learn?
 
