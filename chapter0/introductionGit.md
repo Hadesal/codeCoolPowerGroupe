@@ -8,7 +8,7 @@
     ```sh
     ➜  ~ mkdir ~/repos
     ➜  ~ cd ~/repos
-    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum-uzak.git
+    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum-uzak.git # replace `uzak` with your own github user name!
     Cloning into 'VieProgBasicsCurriculum-uzak'...
     remote: Enumerating objects: 77, done.
     remote: Counting objects: 100% (77/77), done.
