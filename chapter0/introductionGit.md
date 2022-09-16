@@ -8,8 +8,8 @@
     ```sh
     ➜  ~ mkdir ~/repos
     ➜  ~ cd ~/repos
-    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum-uzak.git progBasicsCurriculum
-    Cloning into 'Desktop/codecool/progBasicsCurriculum'...
+    ➜  ~ git clone git@github.com:CodecoolGlobal/VieProgBasicsCurriculum-uzak.git
+    Cloning into 'VieProgBasicsCurriculum-uzak'...
     remote: Enumerating objects: 77, done.
     remote: Counting objects: 100% (77/77), done.
     remote: Compressing objects: 100% (45/45), done.
