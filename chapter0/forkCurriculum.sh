@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 # This is a script to create a fork of VieProgBasicsCurriculum for a given student.
-# NOTE you must do a `git auth login` first
+# NOTE you must do a `gh auth login` first
 
 USERNAME=$1
 PERMISSION=admin
