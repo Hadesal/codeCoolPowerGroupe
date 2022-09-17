@@ -29,10 +29,10 @@ Implement `getEmptyBoard()` to return an empty 3-by-3 board, a list of lists fil
 ### Get players' move
 Implement `getPlayerMove()` which asks the user to make a valid move.
 
-1. If the user clicks on an empty tile, the tile will be filled with an `X` or and `O`.
+1. If the user chooses an empty tile, the tile will be filled with an `X` or and `O`.
 2. The user can't mark an occupied tile.
 
-### Implement changePlayer() which is handle the change between the two-player.
+### Implement and call `changePlayer()` which is handle the change between the two-player.
 When the user has chosen a tile, the program switch to another player.
 
 1. If the player starts with an `X`, after the move the program switch to `0` and vice versa.

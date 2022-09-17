@@ -1,6 +1,8 @@
+const prompt = require("prompt-sync")();
+
 module.exports = {
-  getPlayerMove: function(board, current_player) {
-        /*
+  getPlayerMove: function (board, current_player) {
+    /*
         Should return the read coordinates for the tic tac toe board from the terminal.
         The coordinates should be in the format  letter, number where the letter is 
         A, B or C and the number 1, 2 or 3.
@@ -11,21 +13,20 @@ module.exports = {
         If the user enters the word "quit" in any format of capitalized letters the program
         should stop.
         */
-      return 'A1';
-    },
+  },
 
-    getRandomAiCoordinates: function(board, current_player) {
-        /*
+  getRandomAiCoordinates: function (board, current_player) {
+    /*
         Should return a tuple of 2 numbers. 
         Each number should be between 0-2.
         The chosen number should be only a free coordinate from the board.
         If the board is full (all spots taken by either X or O) than "None"
         should be returned.
         */
-    },
+  },
 
-    getUnbeatableAiCoordinates: function(board, current_player) {
-        /*
+  getUnbeatableAiCoordinates: function (board, current_player) {
+    /*
         Should return an array of 2 numbers. 
         Each number should be between 0-2.
         The chosen number should be only a free coordinate from the board.
@@ -34,18 +35,19 @@ module.exports = {
         If the board is full (all spots taken by either X or O) than "None"
         should be returned.
         */
-    }
-}
+  },
+};
 
 // run this function to test whether you have correctly implemented the other functions
-function checkCoordinates()
-{
+function checkCoordinates() {
   board_1 = [
     ["X", "X", "."],
     ["X", ".", "."],
     ["X", "X", "."],
   ];
-  console.log("It should console.log the coordinates selected by the human player");
+  console.log(
+    "It should console.log the coordinates selected by the human player"
+  );
   coordinates = getPlayerMove(board_1, "X");
   console.log(coordinates);
 
