@@ -28,25 +28,16 @@ Implement `getEmptyBoard()` to return an empty 3-by-3 board, a list of lists fil
 </span>
 ```
 
-
 ### Get players' move
-Implement `getHumanCoordinates()` that asks for user input and returns the coordinates of a valid move on board.
+Implement `getPlayerMove()` which asks the user to make a valid move.
 
-1. The accepts coordinates as a letter and a number: A2 is first row and second column, C1 is third row and first column, and so on.
-2. The function returns a tuple of two integers (row, col).
-3. The returned coordinates start from 0.
-4. The integers indicate a valid (empty) position on the board.
-5. The program keeps asking for coordinates if the coordinates provided are outside of board.
-6. The program keeps asking for coordinates if the coordinates provided are taken.
-7. The program keeps asking for coordinates if the coordinates provided do not match the format.
+1. If the user clicks on an empty tile, the tile will be filled with an `X` or and `O`.
+2. The user can't mark an occupied tile.
 
+### Implement changePlayer() which is handle the change between the two-player.
+When the user has chosen a tile, the program switch to another player.
 
-### Implement making a move
-When the user has chosen a coordinate, that place is marked on the board.
-
-1. If the cell at `row` and `col` is empty (contains a dot .), it is marked with `player`.
-2. Out-of-bounds coordinates are not interpreted as moves.
-3. Coordinates of already occupied cells are not interpreted as moves.
+1. If the player starts with an `X`, after the move the program switch to `0` and vice versa.
 
 ### Check for winners
 Implement `getWinningPlayer()` that returns `X` or `O` based on the winning player has three of their marks in a horizontal, vertical, or diagonal row on `board`.
@@ -59,6 +50,29 @@ Implement `isBoardFull()` that returns `true` if the board is full.
 
 1. The `isBoardFull()` function returns `true` if there are no empty cells on the board.
 2. The `isBoardFull()` returns `false` if there are empty cells on the board.
+
+### Print result
+The game shows if `X` or `O` or no one has won the game
+
+1. If player `X` wins, "X has won!" is displayed.
+2. If player `0` wins, "0 has won!" is displayed.
+3. If nobody wins, "It's a tie!" is displayed.
+
+### Game logic
+Implement all the functions so that the game will run successfully
+
+1. Player X starts the game.
+2. Players alternate their moves (`X`, `0`, `X`, `0`...).
+3. The board is displayed before each move, and at the end of game.
+4. The game ends when someone wins or the board is full.
+5. The game handles bad input (wrong coordinates) without crashing.
+
+### Implement making a move
+When the user has chosen a coordinate, that place is marked on the board.
+
+1. If the cell at `row` and `col` is empty (contains a dot .), it is marked with `player`.
+2. Out-of-bounds coordinates are not interpreted as moves.
+3. Coordinates of already occupied cells are not interpreted as moves.
 
 ### Print board
 Implement `displayBoard()` that prints the board to the screen.
@@ -77,21 +91,6 @@ B  . | . | .
 C  . | . | .
 </span>
 ```
-### Print result
-The game shows if `X` or `O` or no one has won the game
-
-1. If player `X` wins, "X has won!" is displayed.
-2. If player `0` wins, "0 has won!" is displayed.
-3. If nobody wins, "It's a tie!" is displayed.
-
-### Game logic
-Implement all the functions so that the game will run successfully
-
-1. Player X starts the game.
-2. Players alternate their moves (`X`, `0`, `X`, `0`...).
-3. The board is displayed before each move, and at the end of game.
-4. The game ends when someone wins or the board is full.
-5. The game handles bad input (wrong coordinates) without crashing.
 
 ### Quit game
 Allow players to quit the game anytime by typing `quit` in any form of capitalization (quit and QuIt both work).

@@ -1,5 +1,5 @@
 module.exports = {
-    getHumanCoordinates: function(board, current_player) {
+  getPlayerMove: function(board, current_player) {
         /*
         Should return the read coordinates for the tic tac toe board from the terminal.
         The coordinates should be in the format  letter, number where the letter is 
@@ -45,7 +45,7 @@ function checkCoordinates()
     ["X", "X", "."],
   ];
   console.log("It should console.log the coordinates selected by the human player");
-  coordinates = get_human_coordinates(board_1, "X");
+  coordinates = getPlayerMove(board_1, "X");
   console.log(coordinates);
 
   board_2 = [
@@ -54,11 +54,11 @@ function checkCoordinates()
     ["X", "X", "O"],
   ];
   console.log("The console.loged coordinate should be only (0,2) or (1,2)");
-  console.log(get_random_ai_coordinates(board_2));
+  console.log(getRandomAiCoordinates(board_2));
   console.log("The console.loged coordinate should be only (0,2) or (1,2)");
-  console.log(get_random_ai_coordinates(board_2));
+  console.log(getRandomAiCoordinates(board_2));
   console.log("The console.loged coordinate should be only (0,2) or (1,2)");
-  console.log(get_random_ai_coordinates(board_2));
+  console.log(getRandomAiCoordinates(board_2));
 
   board_3 = [
     ["O", "X", "X"],
@@ -66,7 +66,7 @@ function checkCoordinates()
     ["X", "O", "X"],
   ];
   console.log("The console.loged coordinate should be None");
-  console.log(get_random_ai_coordinates(board_3));
+  console.log(getRandomAiCoordinates(board_3));
 
   board_4 = [
     [".", "O", "."],
@@ -74,7 +74,7 @@ function checkCoordinates()
     ["X", "X", "O"],
   ];
   console.log("The console.loged coordinate should always be (0, 0)");
-  console.log(get_unbeatable_ai_coordinates(board_4, "X"));
+  console.log(getUnbeatableAiCoordinates(board_4, "X"));
 
   board_5 = [
     ["X", "O", "."],
@@ -82,7 +82,7 @@ function checkCoordinates()
     ["O", "O", "X"],
   ];
   console.log("The console.loged coordinate should always be (1, 1)");
-  console.log(get_unbeatable_ai_coordinates(board_5, "O"));
+  console.log(getUnbeatableAiCoordinates(board_5, "O"));
 
   board_6 = [
     ["O", "O", "."],
@@ -90,5 +90,5 @@ function checkCoordinates()
     [".", "X", "."],
   ];
   console.log("The console.loged coordinate should either (0, 2) or (2, 0)");
-  console.log(get_unbeatable_ai_coordinates(board_6));
+  console.log(getUnbeatableAiCoordinates(board_6));
 }
