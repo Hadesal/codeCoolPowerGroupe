@@ -4,7 +4,7 @@
 # NOTE you must do a `gh auth login` first
 
 USERNAME=$1
-PERMISSION=admin
+PERMISSION=push
 
 if [ -z "$USERNAME" ]; then
     echo "Please provide a USERNAME"
