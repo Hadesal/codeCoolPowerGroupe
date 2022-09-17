@@ -10,7 +10,7 @@ For arrays there exist many useful functions, which help manipulating or further
 ## Tasks
 
 ### join()
-The `weiredSentence` appeared again. This time we will use a different approach, to make it readable.
+The `weirdSentence` appeared again. This time we will use a different approach, to make it readable.
 
 1. Remove the spaces from beginning and the end
 2. Use the split method to get an array with all the words of the sentence
@@ -31,7 +31,7 @@ Oh no, we made a mistake in the last example. We saved all numbers from 0-99 in 
 ### unshift()
 You might find it difficult to read the sentence `backToFront`. Can you read the sentence after using the unshift method better?
 
-1. Loop through the string and unshift each character one by one to an array.
+1. Shift each character in the string and unshift it into an array.
 2. Make a console log about the arrays content by using the join() method.
 
 ### splice()
@@ -51,9 +51,11 @@ Run the file `rightToLeft.js` and have a look how the shift() & unshift() operat
 * With the `%` operator you can check, if a number is even or odd.
 * For getting the biggest number you can use a similar approach like used in the function `isArraySorted`.
 * For being able to splice the biggest number you need to save the index of the biggest number either!
+* In the code we used a special tag - `@param` - it is written to signal what kind of parameter is expected - check it out and the related background material
 
 ## Background Material
-<a href="https://www.javascripttutorial.net/javascript-ternary-operator/" target="_blank">JavaScript Ternary Operator</a>
-<a href="https://www.w3schools.com/js/js_array_methods.asp" target="_blank">Array Functions</a>
-<a href="https://www.w3schools.com/js/js_break.asp" target="_blank">Break & Continue</a>
+* [JavaScript Ternary Operator](https://www.javascripttutorial.net/javascript-ternary-operator/)
+* [Array Functions](https://www.w3schools.com/js/js_array_methods.asp)
+* [Break & Continue](https://www.w3schools.com/js/js_break.asp)
+* [Tags](https://jsdoc.app/tags-param.html)
 

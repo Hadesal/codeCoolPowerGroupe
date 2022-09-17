@@ -1,14 +1,14 @@
 const betterFormattedSentence = "This sentence has some spaces and delimiters," +
                          " make it better readable."
 
-function checkTheWeiredSentence(weiredSentence)
+function checkTheWeirdSentence(weirdSentence)
 {
-    if(weiredSentence === betterFormattedSentence)
+    if(weirdSentence === betterFormattedSentence)
     {
         return "Thank you so much for making this sentence readable!!!";
     }
 
-    return "Your sentence is still not perfect: " + weiredSentence;
+    return "Your sentence is still not perfect: " + weirdSentence;
 }
 
 let famousPersons = ["Elvis Presley", "Neil Armstrong", "Ludwig van Beethoven",
@@ -46,11 +46,11 @@ let mailsToCheck = "SUPERlongEmaiLAdRESs@GMaIL.com,MRDabaLINa@SMtH.NeT," +
 // Do not forget that the mails are not case sensitive.
 
 
-let weiredSentence = "  This|sentence|has|some|spaces|" +
+let weirdSentence = "  This|sentence|has|some|spaces|" +
                      "and|delimiters,|make|it" +
                      "|better|readable.              ";
 
-// TODO: make weiredSentence readable and call the function checkTheWeiredSentence.
+// TODO: make weirdSentence readable and call the function checkTheWeirdSentence.
 // Console log the result of the function and check if the function is happy with
 // your formatting
 

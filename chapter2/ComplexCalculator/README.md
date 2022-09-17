@@ -21,10 +21,15 @@ Implemet calculation functions.
 5. Create a function `modulo` which takes two parameters (numbers) and returns the result of their modulo equation. 
 
 
-### Print a Menu
+### Get the user choice
 Call the function `getUserMenuChoice`
 
 1. Dependent on the user choice call the related calculation function.
+
+### Print the Menu
+Create a function to print the menu
+
+1. In the code the menu is printed twice the same way. Create a function `printMenu()` which prints a menu and call it.
 
 ### Get two input variables
 Ask the user for an input of a number. Then ask the user for an input of a second number.
@@ -46,6 +51,6 @@ Now when you have got the function, which should be used and the two input varia
 * to convert a string to a number you might check the function `parseInt(str)` (there are more solutions - check the background material for your favorite choice)
 
 ## Background Materials
-<a href="https://javascript.info/function-basics" target="_blank">Functions</a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN" target="_blank">Check if input is number</a>
-<a href="https://dev.to/sanchithasr/7-ways-to-convert-a-string-to-number-in-javascript-4l" target="_blank">Convert string to number</a>
+* [Functions](https://javascript.info/function-basics)
+* [Check if input is number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+* [Convert string to number](https://dev.to/sanchithasr/7-ways-to-convert-a-string-to-number-in-javascript-4l)

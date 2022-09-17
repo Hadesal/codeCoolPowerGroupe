@@ -4,13 +4,19 @@ const possibleMenuChoice = ["1", "2", "3", "4", "5"];
 function getUserMenuChoice()
 {
     console.log("Please choose from the following menu:")
-    console.log("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulo");
+    // TODO: we print here the menu and below again. There is for sure a better
+    // approach than copy-paste. Write a function for printing the menu
+    console.log("1. Addition\n2. Subtraction\n"+
+                "3. Multiplication\n4. Division\n"+
+                "5. Modulo");
     let userMenuCoice = prompt();
-    while(!possibleMenuChoice.includes(userMenuCoice))
+    while (!possibleMenuChoice.includes(userMenuCoice))
     {
         console.log(userMenuCoice);
         console.log("Please choose from the following menu:")
-        console.log("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulo");
+        console.log("1. Addition\n2. Subtraction\n"+
+                "3. Multiplication\n4. Division\n"+
+                "5. Modulo");
         userMenuCoice = prompt();
     }
 

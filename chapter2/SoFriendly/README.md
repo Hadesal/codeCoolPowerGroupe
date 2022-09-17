@@ -11,7 +11,7 @@ As friendly developers we are creating friendly programs. So you have to create 
 ## Tasks
 
 ### Good or Awesome
-Ask a person in the predefined function if the person feels "good" or "aewsome"
+Ask a person in the predefined function if the person feels "good" or "awesome"
 
 ### Check the answer
 Check the answer of a person. If the answer is neither "good" nor "awesome", console log that you do not understand the answer - else repeat the answer on the console
@@ -24,4 +24,4 @@ will be in pension - great!"
 Think about a question you would ask in a small talk conversation and let your program ask this question. For this purpose declare a function with a nice name. Return the answer of the user and react to it in a proper way.
 
 ### Background Materials
-<a href="https://javascript.info/function-basics" target="_blank">Functions</a>
+* [Functions](https://javascript.info/function-basics)

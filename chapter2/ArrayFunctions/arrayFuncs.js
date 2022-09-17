@@ -1,27 +1,30 @@
-// only use for arrays with numbers
-function isArraySorted(possibleSortedArray)
+/**
+ * The @param tag provides the name, type, and description of a function parameter.
+ * @param {number[]} possiblySortedArray
+ */
+function isArraySorted(possiblySortedArray)
 {
-    if(possibleSortedArray.length === 0)
+    if (possiblySortedArray.length === 0)
     {
         return true;
     }
-    let minValue = possibleSortedArray[0];
-    for(let i=1; i<possibleSortedArray.length; i++)
+    let minValue = possiblySortedArray[0];
+    for (let i=1; i<possiblySortedArray.length; i++)
     {
-        if(minValue > possibleSortedArray[i])
+        if (minValue > possiblySortedArray[i])
         {
             return false;
         }
-        minValue = possibleSortedArray[i];
+        minValue = possiblySortedArray[i];
     }
     return true;
 }
 
-const weiredSentence = "  This|sentence|has|some|spaces|" +
+const weirdSentence = "  This|sentence|has|some|spaces|" +
                      "and|delimiters,|make|it" +
                      "|better|readable.              ";
 
-// TODO: After splitting the weiredSentence by "|" use the join() method for
+// TODO: After splitting the weirdSentence by "|" use the join() method for
 // arrays to make a sentence out of it
 
 
@@ -44,7 +47,7 @@ let numbers = [1, 8, 9, 7, 10, 4];
 let sortedArr = [];
 
 
-while(numbers.length > 0)
+while (numbers.length > 0)
 {
     //TODO: get the biggest number in numbers, splice it from there and unshift
     // it to sortedArr.
@@ -54,7 +57,7 @@ while(numbers.length > 0)
 
     // TODO, after above task is implemented: Think why we are using following 
     // if condition?
-    if(isArraySorted(numbers))
+    if (isArraySorted(numbers))
     {
         sortedArr.unshift(numbers.join(""));
         break; // TODO: Think what this new keyword does and how it affects the while loop?

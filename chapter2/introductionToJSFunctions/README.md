@@ -15,5 +15,5 @@ Functions are one of the most important concepts for programming languages. They
 Finish the `Functions` sections of the "Introduction to JavaScript" course on the platform Educative.io.
 
 ## Background Material
-<a href="https://www.educative.io/" target="_blank">Platform Educative.io</a>
-<a href="hhttps://www.educative.io/courses/introduction-to-javascript-first-steps" target="_blank">Introduction to JavaScript: First Steps</a>
+* [Platform Educative.io](https://www.educative.io/)
+* [Introduction to JavaScript: First Steps](https://www.educative.io/courses/introduction-to-javascript-first-steps)

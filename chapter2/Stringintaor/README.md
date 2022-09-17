@@ -1,6 +1,6 @@
 # Stringinator
 
-Now you are a real expert with functions and it is time to get known to some build in functions for strings to be able to manipulate them.
+Now you are a real expert with functions and it is time to get known to some built in functions for strings to be able to manipulate them.
 
 ## What are you going to learn?
 
@@ -33,11 +33,11 @@ Given is an array `emailAddresses`. Since email addresses are not "case sensitiv
 2. Use the `toUpperCase()` function to make all letters of a string big case or the `toLowerCase()` function to make all letters small case.
 
 ### trim()
-Try to make the `weiredSentence` readable again.
+Try to make the `weirdSentence` readable again.
 
 1. Use the `trim()` function to remove the unnecessary spaces.
 2. Use your experience from the `replace()` task to change the `|` to ` `
-3. Call the function `checkTheWeiredSentence()`, pass the corrected string and check the output of the function with a console log. If you transformed the sentence correctly it should show you a nice message.
+3. Call the function `checkTheWeirdSentence()`, pass the corrected string and check the output of the function with a console log. If you transformed the sentence correctly it should show you a nice message.
 
 ### slice()
 The `animalMatrix` contains one animal in each row. Use the `slice()` function to get them and make a console log for them.
@@ -64,4 +64,4 @@ console.log(pets.includes('at'));
 * There are more useful string functions. Check them out, they might be useful for you. Try e.g. to solve the `animalMatrix` example with the function `substring()` either.
 
 ## Background Material
-<a href="https://www.w3schools.com/js/js_string_methods.asp)" target="_blank">JavaScript String methods</a>
+* [JavaScript String methods](https://www.w3schools.com/js/js_string_methods.asp)

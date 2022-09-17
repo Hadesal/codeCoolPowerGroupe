@@ -10,6 +10,7 @@ const youWinString =
 "     |__/    \\______/  \\______/       |__/     \\__/|______/|__/  \\__/"];
 
 const sleeptime = 60; // in ms
+const CLEAR_LINE = "\r\x1b[K";
 
 const sleep = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -29,11 +30,11 @@ async function printRightToLeft(strToPrint)
         strToArr.unshift(" ");
     }
     
-    while(strToArr.length>1)
+    while (strToArr.length > 1)
     {
         process.stdout.write(strToArr.join("")); // write without new line    
         await sleep(sleeptime);
-        process.stdout.write("\r\x1b[K"); // delete last write
+        process.stdout.write(CLEAR_LINE); // delete last write
         strToArr.shift();
     }
     process.stdout.write(strToArr.join(" "));

@@ -71,4 +71,4 @@ Create a function called `fahrenheitToCelsius`:
 * The materials are licensed under a [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). 
 
 ## Background Materials
-<a href="https://www.teaching-materials.org/javascript/exercises/functions" target="_blank">Functions</a>
+* [Functions](https://www.teaching-materials.org/javascript/exercises/functions)
