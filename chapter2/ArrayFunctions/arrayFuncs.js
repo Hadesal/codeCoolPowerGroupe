@@ -64,4 +64,4 @@ while (numbers.length > 0)
     }
 }
 // Here is a new technique used called ternary operator
-console.log(`Does following series of numbers look sorted? ${sortedArr.join("")} ${isArraySorted(sortedArr)? "yes": "no"}`);
+console.log(`Does following series of numbers look sorted? ${sortedArr.join(" ")} ${isArraySorted(sortedArr)? "yes": "no"}`);

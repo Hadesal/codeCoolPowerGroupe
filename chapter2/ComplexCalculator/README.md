@@ -1,18 +1,16 @@
-# Simple calculator
+# Complex calculator
 
-Implement a simple calulator which asks the user first which calculation to make and then asks for the two input numbers.
+Implement a complex calulator which asks the user first which calculation to make and then asks for the two input numbers.
 
 
 ## What are you going to learn?
 
-* How to use functions
-* Get to known to functions with return values and without
-* Get to known to functions with parameters and without
+* Manifesting gained knowledge about functions
 
 ## Tasks
 
 ### Calculations
-Implemet calculation functions.
+Implement calculation functions.
 
 1. Create a function `addition` which takes two parameters (numbers) and returns the sum of both
 2. Create a function `subtraction` which takes two parameters (numbers) and returns the difference of both

@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')();
-const possibleMenuChoice = ["1", "2", "3", "4", "5"];
+const POSSIBLE_MENU_CHOICE = ["1", "2", "3", "4", "5"];
 
 function getUserMenuChoice()
 {
@@ -10,7 +10,7 @@ function getUserMenuChoice()
                 "3. Multiplication\n4. Division\n"+
                 "5. Modulo");
     let userMenuCoice = prompt();
-    while (!possibleMenuChoice.includes(userMenuCoice))
+    while (!POSSIBLE_MENU_CHOICE.includes(userMenuCoice))
     {
         console.log(userMenuCoice);
         console.log("Please choose from the following menu:")
