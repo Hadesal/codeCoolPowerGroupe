@@ -1,6 +1,6 @@
 # TIC TAC TOE
 
-In this project your job is to implement <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">Tic-Tac-Toe</a> for two players. You also can try writing some AI to play the game. If you find it easy, try to make it unbeatable.
+In this project your job is to implement [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe) for two players. You also can try writing some AI to play the game. If you find it easy, try to make it unbeatable.
 
 ## What are you going to learn?
 
@@ -19,13 +19,11 @@ In this project your job is to implement <a href="https://en.wikipedia.org/wiki/
 Implement `getEmptyBoard()` to return an empty 3-by-3 board, a list of lists filled with dots. The inner lists are rows.
 
 1. A list of lists is returned that represents a list of rows.
-2. Every cell of the returned value is .
+2. Every cell of the returned value is `.`.
 3. The rows of the returned value are independent, changing one row does not affect the others.
 4. Printing the result of the `getEmptyBoard()` function shows the following in the terminal.
 ```html
-<span style="color:grey">
-[ [ '.','.','.' ],[ '.','.','.' ],[ '.','.','.' ] ]
-</span>
+[ [ '.', '.', '.' ], [ '.', '.', '.' ], [ '.', '.', '.' ] ]
 ```
 
 ### Get players' move
@@ -82,14 +80,12 @@ Implement `displayBoard()` that prints the board to the screen.
 3. The board is displayed in the following format:
 
 ```html
-<span style="color:grey">
    1   2   3
 A  . | . | .
   ---+---+---
 B  . | . | .
   ---+---+---
 C  . | . | .
-</span>
 ```
 
 ### Quit game

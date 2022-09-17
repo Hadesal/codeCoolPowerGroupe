@@ -11,6 +11,7 @@ module.exports = {
         If the user enters the word "quit" in any format of capitalized letters the program
         should stop.
         */
+      return 'A1';
     },
 
     getRandomAiCoordinates: function(board, current_player) {
