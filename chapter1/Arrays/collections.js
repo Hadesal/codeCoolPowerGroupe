@@ -16,6 +16,8 @@ console.log("Today I would like to eat a " + colors[randomColor] + " " + fruits[
 
 // TODO: Log the length of the colors and fruits collection
 
-// TODO: Log all elements of each collection
+// TODO: Log all elements of each collection - for this access each element of
+// the array by its index
 
-// TODO: create all combinations (cartesian product) - nested for loops
+// TODO: create all combinations and log them (cartesian product)
+// Directly access each eleent in the array through its index

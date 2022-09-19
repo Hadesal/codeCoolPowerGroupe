@@ -15,5 +15,5 @@ Arrays and Objects are so called collections. Collections make it possible to st
 Finish the `Arrays` and the `Objects` sections of the "Introduction to JavaScript" course on the platform Educative.io.
 
 ## Background Material
-* Platform: [Educative.io](https://www.educative.io/)
-* Course:   [Introduction to JavaScript: First Steps](https://www.educative.io/courses/introduction-to-javascript-first-steps) course.
+* [Platform Educative.io](https://www.educative.io/)
+* [Introduction to JavaScript: First Steps](https://www.educative.io/courses/introduction-to-javascript-first-steps)

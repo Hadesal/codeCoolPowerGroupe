@@ -23,5 +23,4 @@ Log the combination of all fruits and colors.
 * For the combination of all fruits and colors you need nested loops (this means a loop in a loop)
 
 ## Background Material
-
 * [Working with arrays](https://www.digitalocean.com/community/tutorials/understanding-arrays-in-javascript)

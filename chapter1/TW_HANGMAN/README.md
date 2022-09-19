@@ -2,8 +2,9 @@
 
 Implement the popular [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)) game. Add a full fledged game flow with a main menu and optionally some cool graphics in the console! Some online examples:
 
-[https://www.gamestolearnenglish.com/hangman/](https://www.gamestolearnenglish.com/hangman/)
-[https://www.coolmathgames.com/0-hangman](https://www.coolmathgames.com/0-hangman)
+<a href="https://www.gamestolearnenglish.com/hangman/" target="_blank">https://www.gamestolearnenglish.com/hangman/</a>
+<a href="https://www.coolmathgames.com/0-hangman" target="_blank">https://www.coolmathgames.com/0-hangman</a>
+
 
 ## What are you going to learn?
 

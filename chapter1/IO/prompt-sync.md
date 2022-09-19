@@ -35,7 +35,7 @@ If you running the program with a debugger, you might have some error messages s
     Uncaught Error: ENXIO: no such device or address, open '/dev/tty'
     
 
-In this specific case, one line is missing from your `launch.json`. If you don't have `launch.json` you need to create one. If you don't know how to create launch.json you can read more about it [here](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). If you already have the launch.json you just need to add the specific line yourself, you just need to open the `launch.json` file and add this line inside the parentheses.
+In this specific case, one line is missing from your `launch.json`. If you don't have `launch.json` you need to create one. If you don't know how to create launch.json you can read more about it <a href="https://code.visualstudio.com/docs/editor/debugging#_launch-configurations" target="_blank">here</a>. If you already have the launch.json you just need to add the specific line yourself, you just need to open the `launch.json` file and add this line inside the parentheses.
 
     “console”: “integratedTerminal”
     

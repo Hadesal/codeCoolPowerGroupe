@@ -16,5 +16,5 @@ Loops are essentials tools to do things in programming languages repitivley. Try
 Finish the `Loops` sections of the "Introduction to JavaScript" course on the platform Educative.io.
 
 ## Background Material
-* Platform: [Educative.io](https://www.educative.io/)
-* Course:   [Introduction to JavaScript: First Steps](https://www.educative.io/courses/introduction-to-javascript-first-steps) course.
+* [Platform Educative.io](https://www.educative.io/)
+* [Introduction to JavaScript: First Steps](https://www.educative.io/courses/introduction-to-javascript-first-steps)

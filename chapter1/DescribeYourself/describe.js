@@ -22,7 +22,7 @@
     // you start the variable name with small
     // case and for every new word in it you
     // start with big case
-    let yourWeightInPounds = weight * kgToLbsConversion;
+    const yourWeightInPounds = weight * KG_TO_LBS;
     
     //TODO: Change the console.log to use string literals
     console.log("Hello " + firstname + " " + lastname);

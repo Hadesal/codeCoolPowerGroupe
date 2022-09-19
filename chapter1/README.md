@@ -1,18 +1,34 @@
-# Introduction To JavaScript - General lookup
+# Chapter 1
+Learn objectives:
+* UNIX Basics
+* Git Basics (single user work)
+* JS basics
+    * variables
+    * datatypes
+    * operators
+    * conditionals
+    * collections
+        * arrays
+        * objects
+    * loops
+    * console I/O
 
-Welcome to your first week pair of the ProgBasics module. You have all projects numbered with 00_..., 01_... and so on. We would strongly recommend you to keep this order when doing your projects.
+## Solo
+* [Unix Basics](https://linuxsurvival.com/)
+* [Git Started](https://journey.code.cool/v2/learn/courses/952/modules/7552/units/6/SOLO/15698)
+* [Introduction to JS variables](./IntroductionToJSVar/)
+* [Describe yourself](./DescribeYourself/)
+* [Introduction to JS condtions](./IntroductionToJSCond/)
+* [Evaluation of student marks](./EvaluateStudentsMarks/)
+* [Introduction to JS collections](./IntroductionToJSColl/)
+* [Arrays](./Arrays/)
+* [My Favourite Things](./MyFavoriteThings/)
+* [Introduction to JS loops](./IntroductionToJSLoops/)
+* [Loopmaster](./LoopMaster/)
+* [IO](./IO/)
 
-Really try to make all projects, since the more is missing now, the more difficult it is going to be later.
-
-Further you can find here a good collection of some links and explanations for javascript topics. These links and topics are pretend to be look ups. Start with the projects and whenever you would like to have more detailed information about a topic you might come back here and check the material attached in the `Background Material` section.
-
-Good Luck!
-
-## What are you going to learn?
-
-* Javascript basics
-* Git basics
-
-### Background Material
-[JavaScript basics](https://journey.code.cool/v2/learn/materials/competencies/javascript-basics.md)
-[JavaScript web](https://journey.code.cool/v2/learn/materials/competencies/javascript-web.md)
+## Team
+* Workshop: formatting code
+* Workshop: basic work & git conflicts (intro multiuser work)
+* [Hangman](./TW_HANGMAN/)
+* [Workbook](./TW_WORKBOOK)

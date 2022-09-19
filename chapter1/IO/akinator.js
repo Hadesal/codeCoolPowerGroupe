@@ -1,15 +1,15 @@
 // In node.js: install a prompt library by running: `npm install prompt-sync` in the current folder
 const prompt = require("prompt-sync")();
 
-const figures = [];
+const FIGURES = [];
 
-figures.push({figName: 'bugs bunny', color: 'grey', weight: 3});
-figures.push({figName: 'dumbo', color: 'grey', weight: 100});
-figures.push({figName: 'mickey', color: 'black', weight: 1});
+FIGURES.push({figName: 'bugs bunny', color: 'grey', size: 'medium'});
+FIGURES.push({figName: 'dumbo', color: 'grey', size: 'large'});
+FIGURES.push({figName: 'mickey', color: 'black', size: 'small'});
 
 console.log("Please think about one of the following figures:");
 
-for(const figure of figures)
+for(const figure of FIGURES)
 {
     console.log(figure.figName);
 }
