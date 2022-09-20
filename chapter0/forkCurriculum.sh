@@ -26,4 +26,10 @@ gh api \
     "repos/CodeCoolGlobal/VieProgBasicsCurriculum-$USERNAME/collaborators/$USERNAME" \
     --silent \
     -X PUT \
-    -f permission=$PERMISSION \
+    -f permission=$PERMISSION
+
+# add "read" permission to the parent repo so that the forks can be synced with it.
+gh api \
+    repos/CodeCoolGlobal/VieProgBasicsCurriculum/collaborators/$USERNAME \
+    -X PUT \
+    -f permission=pull
