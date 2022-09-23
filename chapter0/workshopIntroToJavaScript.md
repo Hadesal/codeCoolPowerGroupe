@@ -52,7 +52,7 @@
         }
 
         for (let i = 1; i < 10; i++) {
-            let area = circleArea(i):
+            let area = circleArea(i);
             console.log(`Circle area for ${i}: ${area}`);
         }
         m@t480s:~/sandbox$ node circleAreas.js 

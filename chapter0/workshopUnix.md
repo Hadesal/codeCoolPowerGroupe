@@ -71,6 +71,7 @@
   * CTRL + c
   * up/down
   * CTRL + r
+  * TAB (autocompletion)
 * CLI Text editor
   * nano
 
