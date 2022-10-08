@@ -1,0 +1,22 @@
+{
+  "name": "vieprogbasicscurriculum-hadesal",
+  "version": "1.0.0",
+  "description": "* Version: 0.1 * 2022-08-23 Noah, Emad, Martin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecoolGlobal/VieProgBasicsCurriculum-hadesal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodecoolGlobal/VieProgBasicsCurriculum-hadesal/issues"
+  },
+  "homepage": "https://github.com/CodecoolGlobal/VieProgBasicsCurriculum-hadesal#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
