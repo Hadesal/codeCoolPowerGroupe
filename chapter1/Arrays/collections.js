@@ -36,3 +36,4 @@ console.log(coloredFruits);
  console.log(colors[0]);
  fruits[3] = `burgers`;
  console.log(fruits[3]);
+ console.log("hello");
