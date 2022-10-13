@@ -1,0 +1,433 @@
+[33mcommit 6e50f5e414281ce88b632779e1ff0b05dc3ae320[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Hadesal <hadealhlo1977@gmail.com>
+Date:   Sat Oct 8 10:45:49 2022 +0200
+
+    new changes
+
+[33mcommit 06888bf5ddd85e858e972e1fb73fda61adc8b9e5[m
+Author: uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 23 19:16:46 2022 +0200
+
+    Draft: minor bugfixes (#6)
+    
+    * minor bugfixes
+    
+    * Fix link for BB course
+    
+    * Add Formatting Code workshop
+
+[33mcommit 5b7a697e3c4beecd34e6f701091a763ab86f90f6[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Sep 20 14:37:13 2022 +0200
+
+    `./forkCurriculum.sh` now gives read rights the main repo
+
+[33mcommit 0d3ceee371527068ce5fe105941a9c03dbcf4da1[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Sep 20 13:15:52 2022 +0200
+
+    Cleanup README
+
+[33mcommit 67fcc44a098b0c43ed11b9e1eea8383a39f9a4ca[m
+Author: Marko Knöbl <marko.kn@gmail.com>
+Date:   Mon Sep 19 16:45:37 2022 +0200
+
+    ch1: fix getRndInteger (#5)
+
+[33mcommit fa1a04596bef7ffd95e1d4da0a458dcbbbdecb15[m
+Author: uzak <uzak+git@mailbox.org>
+Date:   Mon Sep 19 13:53:54 2022 +0200
+
+    Chapter1 - bugfixes (#1)
+    
+    * Made changes according to students feedback, removed Git Folder since the example is referenced in the main README.md file
+    
+    * Resolved bugs due to pull request Chapter1 - bugfixes #1
+    
+    Co-authored-by: eMu <emad.easa@codecool.com>
+
+[33mcommit 599e83544f869ebcf0641080c7fdf96b8c4db721[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Sat Sep 17 17:50:09 2022 +0200
+
+    Change default permission to `push` (write)
+
+[33mcommit 6a88876b44e1f3e620679b6ea55a51ff317f9a1b[m
+Merge: 2bb39b0 d764c73
+Author: emulatoriu <103026363+emulatoriu@users.noreply.github.com>
+Date:   Sat Sep 17 14:41:52 2022 +0200
+
+    Merge pull request #2 from CodecoolGlobal/chapter2
+    
+    Chapter2
+
+[33mcommit d764c730d25388a242554d879c5cda2d32778c86[m[33m ([m[1;31morigin/chapter2[m[33m)[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Sat Sep 17 11:38:57 2022 +0200
+
+    Fix typo
+
+[33mcommit 7b910afe89669a30cab4098c8b50b837a92f59c2[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Sat Sep 17 11:14:58 2022 +0200
+
+    cleanup; add `package.json`
+
+[33mcommit 257f88b61f463dae50b842571689346c4c0cdece[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Sat Sep 17 10:06:34 2022 +0200
+
+    Some code and formatting fixes
+
+[33mcommit eb75c3d0d7e20ebdae327f5ac22df0202d650705[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 17 10:00:45 2022 +0200
+
+    fixed bugs in TTT project
+
+[33mcommit 3b8e550f513e40c79289acc93e176fd5dd94411a[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 17 08:54:47 2022 +0200
+
+    Made changes due to PR Chapter2 #2
+
+[33mcommit bc3833a01a4ccddd80e5b0d5e523103b1de797a3[m
+Merge: f7bb1e9 e3734df
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 17 08:41:02 2022 +0200
+
+    Merge branch 'chapter2' of github.com:CodecoolGlobal/VieProgBasicsCurriculum into chapter2
+
+[33mcommit f7bb1e92928dd3b23fd70a74b68efb0c4505c9eb[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 17 08:40:28 2022 +0200
+
+    Made changes due to PR Chapter2 #2
+
+[33mcommit 2bb39b0360abdcf67a98acbc6447d82435a9a9b2[m
+Merge: b417759 20f3bf8
+Author: uzak <uzak+git@mailbox.org>
+Date:   Sat Sep 17 07:10:39 2022 +0200
+
+    Merge pull request #3 from CodecoolGlobal/martin
+    
+    add `forkCurriculum.sh` script
+
+[33mcommit e3734df03ef19f71d82268e4c96b89b95930014e[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 16 19:53:54 2022 +0200
+
+    Fix: s/it/us/
+
+[33mcommit 20f3bf85372dfc9e63907af63e556cd5f524bb97[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 16 19:50:13 2022 +0200
+
+    Feedback from Noah
+
+[33mcommit 266ecd8d304ddb3798191732fd846dd60422c292[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 16 16:59:32 2022 +0200
+
+    "fix" git clone output
+
+[33mcommit c1f9371e0c80340b92f920acc5a43611385aea63[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 16 16:33:00 2022 +0200
+
+    fix typo
+
+[33mcommit daae9baf3780013a6ca1280a4a345068924f432c[m
+Merge: e8ec54e 5927f1d
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Sep 14 11:39:36 2022 +0200
+
+    Merge branch 'chapter2' of github.com:CodecoolGlobal/VieProgBasicsCurriculum into chapter2
+
+[33mcommit e8ec54ee75bc8db2dbb78254245d124f8c7a1160[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Sep 14 11:33:18 2022 +0200
+
+    Added final projects, corrected links so they open in new windows as requested from Dyre
+
+[33mcommit 24b3695f02aa229d1225296449e41c09e7bc113e[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Sep 14 11:04:08 2022 +0200
+
+    Add a script for forking the repo
+
+[33mcommit 5927f1d01783a4706ae8a3e95139b04bb113d1e9[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Mon Sep 12 11:52:27 2022 +0200
+
+    Add list of katas done in HU
+
+[33mcommit b417759c28ccec0a240e7e57e7e98e3ff8fd3cbf[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Mon Sep 12 11:20:27 2022 +0200
+
+    add suffix to suggested filename
+
+[33mcommit 57dc8ea54bc2879a960bfa3c952344378f2d2542[m
+Merge: e5fa853 7541281
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 10 08:05:44 2022 +0200
+
+    resolved merge conflict
+
+[33mcommit e5fa8539e967a96c4f4c44f8fd0fa66147543eb6[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Sat Sep 10 07:57:30 2022 +0200
+
+    Created 4 projects for functions
+
+[33mcommit 5c1322a4db791bc3bf8c9206186b6f7c41037c06[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Thu Sep 8 16:50:13 2022 +0200
+
+    Add `acceptanceReviewTemplate.md` and an example
+
+[33mcommit 75412812025eefecba47cb7c6c25dc28c9b79776[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Thu Sep 8 16:40:02 2022 +0200
+
+    add `teachingMaterialsOrg` project
+
+[33mcommit d712db7f592d09f6bd93e27c585b616ef99e9fab[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Thu Sep 8 16:16:48 2022 +0200
+
+    Update TODO
+
+[33mcommit d7b27220173491285d514f54c550d234bee25801[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Sep 7 07:53:03 2022 +0200
+
+    New repo URL
+
+[33mcommit 3ea03e2690ab817a4071194a30bbc470df9a7298[m
+Author: emulatoriu <103026363+emulatoriu@users.noreply.github.com>
+Date:   Tue Sep 6 23:10:59 2022 +0200
+
+    Update README.md
+    
+    Fixed a typo
+
+[33mcommit d1f2530ee31bf5cef7ea67d8a6592db344670c0f[m
+Author: uzak <uzak+git@mailbox.org>
+Date:   Tue Sep 6 10:30:49 2022 +0200
+
+    Chapter3 (#3)
+    
+    * add `introToHtmlAndCss` and `introduceYourself` projects
+    
+    * add `businessCard` project
+    
+    * add `grandmasRecipes` project
+    
+    * add `flexingYourCssMuscle` project from Journey
+    
+    * Links for team resources
+    
+    * Add drafts for `registrator` and `katana` projects
+    
+    * Remove `registrator` and specify `katana` projects
+    
+    * Add workshopDevTools.md
+    
+    * Add `time management` workshop notes
+    
+    * Add `workshopGoogleFoo.md`
+    
+    * add `coinToss` project
+    
+    * Add `multiColorButtons`
+    
+    * add `createYourOwnCharacter` project
+    
+    * add `quickTodoList` project
+    
+    * add `funnyCalendar` project
+    
+    * minor cleanup
+    
+    * Remove projects of chapter3 from chapter4
+    
+    * Implement Emad's feedback
+    
+    * Add hint about tailwind/bootstrap
+
+[33mcommit ef28d6ea136d6b476908a93839e47d65ce5e4ff5[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Fri Sep 2 11:07:01 2022 +0200
+
+    Add PA exercises
+
+[33mcommit d2c82c12be0fd0b5cb5cd1fa414d1d62f737c737[m
+Merge: ea9a4be 39ec9ce
+Author: emulatoriu <103026363+emulatoriu@users.noreply.github.com>
+Date:   Wed Aug 31 13:39:42 2022 +0200
+
+    Merge pull request #2 from emulatoriu/eMu
+    
+    Finished Chapter 1 SI/TW
+
+[33mcommit 39ec9cea849c330f5750091fc022343d21517bdf[m
+Merge: 30c194a 115e49a
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Aug 31 13:37:53 2022 +0200
+
+    added comment in the Loop Master project
+
+[33mcommit 30c194a5ccf7d1f8ec1cdcac68c04f39e418f478[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Aug 31 13:30:22 2022 +0200
+
+    added hint for the Loop Master project
+
+[33mcommit ea9a4be69f83cf406093d70ed9e930dec9af1c8f[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 31 13:08:45 2022 +0200
+
+    Add `Live Server` plugin
+
+[33mcommit 115e49aefc505d0df1f9dc121b35ce48f7534df2[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 31 12:56:29 2022 +0200
+
+    Fix mostly formatting and delete .vscode files
+
+[33mcommit 4019f7d684fc8328a12a47d1cac1dd7bd8e32405[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Aug 31 11:02:27 2022 +0200
+
+    Updated repo related to the comments of the pull request
+
+[33mcommit 0a78f1f9de15e11029b168c5d7852c5dc86598f9[m
+Merge: 4d90b62 b01a5e5
+Author: uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 31 09:01:28 2022 +0200
+
+    Merge pull request #1 from emulatoriu/martin
+    
+    Chapter 0
+
+[33mcommit b01a5e59f35d613d5fd7c6563bf9c22f13fc2d9f[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 31 09:00:42 2022 +0200
+
+    Apply eMu's feedback
+
+[33mcommit 9a52511bb7b597863a7328916a6d490340c0f9c4[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 30 21:43:19 2022 +0200
+
+    Updated repo and included some comments of the pull request
+
+[33mcommit eb08a9fc8b88b9d0f67fd44a12a9217109234dfe[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 30 11:59:08 2022 +0200
+
+    Finished the chapter 1 curriculum
+
+[33mcommit 7c06376e798b5bc31c6c68724e7ed8054f14c79b[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 14:15:25 2022 +0200
+
+    Minor beautification
+
+[33mcommit 5c5b3a118d010f8779b358d623bffc80654c7038[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Wed Aug 24 14:41:30 2022 +0200
+
+    added Projects indluding collections
+
+[33mcommit a26b4d8b68b0e072abb0e56692ca2bd78e637862[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 11:53:59 2022 +0200
+
+    Improve JS workshop; git is no longer workshop
+
+[33mcommit c3543d3ec0f0e6be4b74836fecdc0780312df3ca[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 11:32:35 2022 +0200
+
+    Add intro to `git clone`
+
+[33mcommit ddab4f22b4950c09d3a35e8681b51135d2633d5e[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 11:24:00 2022 +0200
+
+    Implement Intro to JS
+
+[33mcommit 1f540081c26841a4ffb213892afddebc77ace4af[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 10:45:35 2022 +0200
+
+    Implement: UNIX Workshop
+
+[33mcommit 04b8e6b08c5ff14e0c5f057e84320821d54faf5e[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Wed Aug 24 03:34:36 2022 +0200
+
+    Add TODO
+
+[33mcommit ddde7b31188ef4673b6b831a56a1706a2a2133e7[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Aug 23 16:48:36 2022 +0200
+
+    .
+
+[33mcommit 4d90b6275a9ff16d71d955ddc524092ac14e2e07[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Aug 23 14:19:00 2022 +0200
+
+    Add project template
+
+[33mcommit 41a6254d8f63f79096d76c1a17c2f632034e6476[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Aug 23 13:35:09 2022 +0200
+
+    Fix Link
+
+[33mcommit e27a65bef838fe8dec2617f6669622d4d7000525[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Aug 23 13:30:43 2022 +0200
+
+    add `gitStarted`, remove `chapter5`
+
+[33mcommit 3f89e5a6d0dce4bc10ad678c04859c9321f6cba6[m
+Author: Martin Uzak <uzak+git@mailbox.org>
+Date:   Tue Aug 23 13:12:28 2022 +0200
+
+    Initial structure
+
+[33mcommit 120baa2e89551f067fb23cbe2e13000f6d3e51bd[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 23 06:11:32 2022 +0200
+
+    Added more projects, completed projects structures
+
+[33mcommit 6319583639d2190b2d74e83a5c2db071c94d013e[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 23 05:36:39 2022 +0200
+
+    Made some adaptions
+
+[33mcommit 18c2247772a467ca9cd69b4369352a56604b850b[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 23 05:21:07 2022 +0200
+
+    Added project for conditions
+
+[33mcommit b0c8ecb12a1d7d0b3273c91a8ee3e44e2311e0bb[m
+Author: eMu <emad.easa@codecool.com>
+Date:   Tue Aug 23 05:09:24 2022 +0200
+
+    added new projects
+
+[33mcommit 630f5d757ecf95dad0cc55799ccb9a4a4156fd9a[m
+Author: emulatoriu <103026363+emulatoriu@users.noreply.github.com>
+Date:   Sat Aug 20 18:07:29 2022 +0200
+
+    Initial commit

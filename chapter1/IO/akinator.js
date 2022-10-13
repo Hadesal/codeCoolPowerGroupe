@@ -27,7 +27,7 @@ if(startGame.toLowerCase() === `yes`){
 // asking for what big the figure ears are
     do{
 
-        if(figureEars.toLowerCase() === FIGURES[0].figEars || figureEars.toLowerCase() === FIGURES[1].figEars || figureEars.toLowerCase() === FIGURES[2].figEars) {
+        if(figureEars.toLowerCase().trim()=== FIGURES[0].figEars || figureEars.toLowerCase().trim() === FIGURES[1].figEars || figureEars.toLowerCase().trim() === FIGURES[2].figEars) {
             console.log(`Hmmm, i think i am getting closer! ^_^ `);
             break;
         }else {
@@ -35,19 +35,20 @@ if(startGame.toLowerCase() === `yes`){
             figureEars = prompt(`Does your favorite Figure has (rounded ears/ big ears/ very big ears)?: `);
         }
 
-}while(figureEars.toLowerCase())
+}while(figureEars.toLowerCase().trim())
 
 }else{
     console.log(` \n Thanks for running me \n`);
     return 0;
 }
+
 // asking for what color does the figure has 
 let figureColor = prompt(`Does your favorite Figure has (black/ grey) color ?: `);
 
 
     do{
 
-        if(figureColor.toLowerCase() === FIGURES[0].color || figureColor.toLowerCase() === FIGURES[2].color){
+        if(figureColor.toLowerCase().trim() === FIGURES[0].color || figureColor.toLowerCase().trim() === FIGURES[2].color){
             console.log(`Hmmm, i think i am getting more closer! ^_^`);
             break;
         }else {
@@ -55,7 +56,7 @@ let figureColor = prompt(`Does your favorite Figure has (black/ grey) color ?: `
             figureColor = prompt(`Does your favorite Figure has (black / grey)?: `);
         }
 
-}while(figureColor.toLowerCase() );
+}while(figureColor.toLowerCase().trim() );
 
 //asking for what big is the figure
 let figureSize= prompt(`Does your favorite Figure look (large/ small/ medium)?: `);
@@ -63,7 +64,7 @@ let figureSize= prompt(`Does your favorite Figure look (large/ small/ medium)?: 
 
     do{
 
-        if(figureSize.toLowerCase() === FIGURES[0].size || figureSize.toLowerCase() === FIGURES[1].size || figureSize.toLowerCase() === FIGURES[2].size){
+        if(figureSize.toLowerCase().trim() === FIGURES[0].size || figureSize.toLowerCase().trim() === FIGURES[1].size || figureSize.toLowerCase().trim() === FIGURES[2].size){
             console.log(`Hmmm, maybe i know what is your favorite Figure.`);
             break;
         }else {
@@ -73,7 +74,7 @@ let figureSize= prompt(`Does your favorite Figure look (large/ small/ medium)?: 
 
 }while(figureSize.toLowerCase() );
 
-let figureConfirm;
+let figureConfirm = ``;
 //checking which figure 
 
 if(figureColor === FIGURES[0].color && figureEars === FIGURES[0].figEars && figureSize === FIGURES[0].size){
@@ -92,16 +93,18 @@ if(figureColor === FIGURES[0].color && figureEars === FIGURES[0].figEars && figu
 }
 
 //asking user if the figure was checked right
-do{
-if(figureConfirm === `yes`){
-    console.log(`Yayy, you finished the game!
-    thanks for playing me !! ^_^`)
-    break;
-}else if(figureConfirm === `no`){
-    console.log(`Oh, noo
-    please start the game again if you want to play again!`);
-    break;
-}else{
-    figureConfirm = prompt(`Please type in yes/no if guessed right?: `);
+
+while(figureConfirm.toLowerCase().trim()){
+
+    if(figureConfirm.toLowerCase().trim()=== `yes`){
+        console.log(`Yayy, you finished the game!
+        thanks for playing me !! ^_^`)
+        break;
+    }else if(figureConfirm.toLowerCase().trim() === `no`){
+        console.log(`Oh, noo
+        please start the game again if you want to play again!`);
+        break;
+    }else{
+        figureConfirm = prompt(`Please type in yes/no if guessed right?: `);
+    }
 }
-}while(figureConfirm.toLowerCase)
