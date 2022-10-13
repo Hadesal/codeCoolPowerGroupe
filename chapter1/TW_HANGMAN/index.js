@@ -94,7 +94,7 @@ function checkInputCharacter(inputString) {
 let level = 0
 let input = '';
 do {
-    input = prompt(`Please choose a input from 0 to ${constants.WORDS_TO_GUESS.length - 1}: `);
+    input = prompt(`Please choose a level from 1 to ${constants.WORDS_TO_GUESS.length}: `);
 }while (!checkInput(input))
 
 
@@ -105,6 +105,7 @@ let wordStatus = [];     //status of word to guess
 //initialize game
 //randomly pick a word of set input
 if(input !== 'quit') {
+    input -= 1; //level is counted zp from 1 for the user!
     randomWord = constants.WORDS_TO_GUESS[input][getRndInteger(0, constants.WORDS_TO_GUESS[input].length-1)];
     for(let c of randomWord)
         wordStatus.push('_');  //status at the begin
@@ -114,7 +115,8 @@ if(input !== 'quit') {
 
 //start game
 let indexHangman = 0;   //init lives
-let numTries = 0;
+let numTries = 0;   //number of tries until word is guessed
+
 while(input !== 'quit') {
     console.log("\n*************************************************************");
     console.log("*************************************************************\n");
@@ -126,12 +128,10 @@ while(input !== 'quit') {
 
     if(!wordStatus.includes('_')){
         console.log("\n\nCONGRATULATIONS, YOU HAVE WON!!");
-        console.log(`It took you ${numTries} tries to guess the word.`);
-  
         break;
     }
 
- 
+    
     if(indexHangman < (constants.HANGMAN_PICS.length - 1)) {
         input = prompt("Enter a character: ");
 
@@ -147,8 +147,6 @@ while(input !== 'quit') {
                             if(randomWord[i].toUpperCase() === input.toUpperCase()) {
                                 wordStatus[i] = randomWord[i];  //replace '_' with correctly guessed character
                                                                 //same case as randomWord
-                                numTries++;     
-                                                           
                             }
                         }
 
@@ -162,17 +160,13 @@ while(input !== 'quit') {
                             //add first wrong character
                             wrongCharacters.push(input);
                             indexHangman = evaluateLives(level, indexHangman);     //number of lives depending on level
-                            numTries++;
-                            
-                          }
+                        }
 
                 }
                 else {
                     //add first wrong character
                     wrongCharacters.push(input);
                     indexHangman = evaluateLives(level, indexHangman);     //number of lives depending on level
-                    numTries++;
-
                 }
 
             }
@@ -182,8 +176,6 @@ while(input !== 'quit') {
     }
     else {   //hanged!!
         console.log("\n\nYOU LOST !!!")
-        console.log(`It took you ${numTries} tries to loose.`)
-
         break;
     }
 
