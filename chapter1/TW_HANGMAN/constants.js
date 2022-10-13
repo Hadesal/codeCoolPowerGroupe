@@ -55,8 +55,11 @@ const HANGMAN_PICS = [
 // obj with array of words per level
 //WORDS_TO_GUESS[Level][Words to guess]
 const WORDS_TO_GUESS = [["Auto", "Turm", "See", "Meer", "Bremse"],
-                        ["Professor", "Theologe", "Philosoph", "Dieselejektor", "Dynamo", "Wanderpokal", "Sonnenschein"],
-                        ["Quantenmechanik", "Sicherheitsbeauftragter", "Registerbank"]
+                        ["Professor", "Theologe", "Philosoph", "Dieselejektor", "Dynamo", "Wanderpokal", "Sonnenschein", "Quarzuhr", "brillant", 
+                         "Terasse", "Jackette", "Zucchini"],
+                        ["Quantenmechanik", "Sicherheitsbeauftragter", "Registerbank", "Verkehrsinfrastrukturfinanzierungsgesellschaft","Akquise", 	
+                          "nichtsdestotrotz", "Burgverlies", "Chrysantheme", "Portemonnaie" , "Einfaltspinsel", "Bredouille", "Fronleichnam", 
+                          "Schlafittchen", "Galionsfigur", "unentgeltlich", "Kernspintomografie", "Xanthippe", "Yuccapalme"]
                        ];
 
 module.exports = {

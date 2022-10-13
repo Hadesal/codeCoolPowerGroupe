@@ -60,7 +60,7 @@ function evaluateLives(level, indexLives) {
 
 function checkInput(inputString) {
     if(inputString !== ''){
-        if ( (Number(inputString) >= 0 ) && (Number(inputString) < constants.WORDS_TO_GUESS.length)){
+        if ( (Number(inputString) >= 0 ) && (Number(inputString) <= constants.WORDS_TO_GUESS.length)){
             //console.log(`Test: ${Number(inputString)}`);
             return true;
         }
