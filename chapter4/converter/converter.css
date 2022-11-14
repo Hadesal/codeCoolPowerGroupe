@@ -1,0 +1,25 @@
+* {
+  margin: 10px;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rotate {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg) scale(1.2);
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+input {
+  size: 20px;
+  box-sizing: border-box;
+}

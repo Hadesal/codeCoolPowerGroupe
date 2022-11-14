@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Create your own Character</title>
+        
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="form in">
+
+                <h2 id="par">Create your own Character</h2>
+
+                <form>
+
+                    <label for="fname">
+                        First name:
+                        <br>
+                        <input type="text" id="fname" name="fname">
+
+                        <br><br>
+                    </label>
+
+                    <label for="lname">
+                        Last name:
+                        <br>
+                        <input type="text" id="lname" name="lname">
+                        <br><br>
+
+                    </label>
+
+                    <label for="gender">
+                        choose gender:
+
+                        <select id="gender" name ="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    
+                    </label><br>
+                
+                    <label for="birthDate">
+                        <br>
+                        Enter your birth date:
+                        <input type="date" name="date" id="birthDate">
+                        <br>
+                    </label>
+
+                    <br>
+
+
+                </form>
+            </div>
+            <div class="form out">
+        
+                <h2>Your character Data</h2>
+                <p>Character Name: </p>
+                <p id="name">
+                <br>
+
+                <p>Character gender: </p>
+                <p id="ch-gender">
+                <br>
+                <p>Character BirthDate:</p> <p id="ch-birthDate">
+
+            </div>
+            <script src="index.js"></script>
+
+        </div>
+    </body>
+
+</html>
