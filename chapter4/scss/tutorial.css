@@ -3,39 +3,10 @@
   padding: 15px 0 0;
   margin-top: 10px;
   width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.form__group1 {
-  position: relative;
-  align-self: flex-end;
-  justify-content: flex-end;
-  width: 50%;
-  padding: 15px 0 0;
-  flex-direction: column;
 }
 
 p {
   color: #38ef7d;
-}
-.inp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
-span {
-  scale: 2;
-}
-.rotate {
-  -moz-transition: all 0.5s linear;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-.down {
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg) scale(1.2);
 }
 
 .form__field {
@@ -48,13 +19,13 @@ span {
   color: #38ef7d;
   padding: 7px 0;
   background: transparent;
-  transition: border-color 0.2s;
+  transition: border-color 2s;
 }
 .form__field::-moz-placeholder {
-  color: black;
+  color: transparent;
 }
 .form__field:-ms-input-placeholder {
-  color: black;
+  color: transparent;
 }
 .form__field::placeholder {
   color: transparent;
@@ -89,22 +60,21 @@ span {
   font-weight: 700;
   border-width: 3px;
   -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
-  border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
   border-image-slice: 1;
 }
 .form__field:focus ~ .form__label {
   position: absolute;
   top: 0;
   display: block;
-  transition: 0.2s;
+  transition: 0.5s;
   font-size: 1rem;
   color: #11998e;
   font-weight: 700;
 }
 
 /* reset input */
-.form__field:required,
-.form__field:invalid {
+.form__field:required, .form__field:invalid {
   box-shadow: none;
 }
 
@@ -117,5 +87,5 @@ body {
   align-items: center;
   min-height: 100vh;
   font-size: 1.5rem;
-  background-color: #fffefe;
-} /*# sourceMappingURL=converter.css.map */
+  background-color: #222222;
+}/*# sourceMappingURL=tutorial.css.map */

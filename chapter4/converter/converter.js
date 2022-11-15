@@ -1,5 +1,5 @@
 const dv = document.getElementsByClassName("rotate")[0];
-const inConverter = document.getElementById("converter");
+const inConverter = document.getElementsByClassName("form__field")[0];
 const toKg = 0.453592;
 const toPound = 2.20462;
 
@@ -10,7 +10,7 @@ kgToPound = (kg) =>
   kg != null ? Number(kg) * toPound : console.log("getting null");
 
 dv.addEventListener("click", () => {
-  const hadi = document.getElementById("hadi");
+  const hadi = document.getElementById("outRes");
 
   dv.classList.toggle("down");
 
@@ -23,7 +23,7 @@ dv.addEventListener("click", () => {
   }
 });
 inConverter.addEventListener("input", () => {
-  const hadi = document.getElementById("hadi");
+  const hadi = document.getElementById("outRes");
 
   if (dv.className.includes("down")) {
     hadi.innerHTML = ` Pounds in Kilograms : ${poundToKg(inConverter.value)}`;
